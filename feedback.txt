@@ -1,0 +1,45 @@
+Transfer learning ift. at spare tid. Måske e
+
+Uddyb meget på koncepterne 
+
+F.eks. hvad er supervised learning. 
+
+Litteratur studiet skal gøres stærkt
+
+Teorien
+
+Funktions approksimationsteori som indgang til machine learning
+
+Kapitler.
+Machine learning
+Litteratur studie
+Fysikken
+Data engineering. Beskriv hvad jeg gør og hvorfor. Uddyb hvad det handler om, når 
+
+Beskriv hvorfor noget er relevent. The data is formatted in two ways...
+Beskriv hvorfor det er relevant at formattere data 
+Mere fokus på diskussion. Tænk tutorial style. 
+
+Skim Chapter 4
+
+Slet Teori section og flyt materialet til de relevante 
+
+Fjern Adaboost, GradientBoostedTrees
+
+Godt studie beskriver, hvad og fordele/ulemper ved metoder. 
+
+Random forest plejer at klare sig meget godt. 
+
+Forklar hvad værdien er 
+Lav diagrammer 
+
+Hvordan skaber dette værdi
+Hvorfor skal vi bruge machine learning? Er det en god ide
+
+Det er for indforstået
+
+Det kan være nødvendigt at gentage sig selv. 
+
+
+Simulation skal måske være tidligere
+

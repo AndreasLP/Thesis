@@ -1,0 +1,58 @@
+Loaded dependency [python3/3.9.10]: gcc/10.3.0-binutils-2.36.1
+Loaded module: python3/3.9.10
+
+Loading python3/3.9.10
+  Loading requirement: gcc/10.3.0-binutils-2.36.1
+# trees: 500
+Attribute 0
+User defined signal 2
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 13416921: <RF> in cluster <dcc> Exited
+
+Job <RF> was submitted from host <n-62-27-20> by user <s174505> in cluster <dcc> at Wed Apr 20 14:50:08 2022
+Job was executed on host(s) <16*n-62-21-19>, in queue <hpc>, as user <s174505> in cluster <dcc> at Wed Apr 20 14:54:26 2022
+</zhome/02/e/127482> was used as the home directory.
+</zhome/02/e/127482/Thesis_stuff/Thesis-Code> was used as the working directory.
+Started at Wed Apr 20 14:54:26 2022
+Terminated at Wed Apr 20 19:56:22 2022
+Results reported at Wed Apr 20 19:56:22 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -J RF
+#BSUB -n 16
+#BSUB -R "span[hosts=1]"
+#BSUB -q hpc
+#BSUB -W 5:00
+#BSUB -R "rusage[mem=3GB]"
+#BSUB -o batch_jobs/random_forest_%J.out
+
+module purge
+module load python3/3.9.10
+
+python3 random_forest.py
+------------------------------------------------------------
+
+TERM_RUNLIMIT: job killed after reaching LSF run time limit.
+Exited with exit code 140.
+
+Resource usage summary:
+
+    CPU time :                                   274514.00 sec.
+    Max Memory :                                 7302 MB
+    Average Memory :                             3025.08 MB
+    Total Requested Memory :                     49152.00 MB
+    Delta Memory :                               41850.00 MB
+    Max Swap :                                   -
+    Max Processes :                              22
+    Max Threads :                                44
+    Run time :                                   18118 sec.
+    Turnaround time :                            18374 sec.
+
+The output (if any) is above this job summary.
+

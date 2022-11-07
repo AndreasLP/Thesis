@@ -1,0 +1,714 @@
+Loaded dependency [python3/3.9.10]: gcc/10.3.0-binutils-2.36.1
+Loaded module: python3/3.9.10
+
+Loading python3/3.9.10
+  Loading requirement: gcc/10.3.0-binutils-2.36.1
+Device: cuda
+Hyperparameters:
+	data_type : torch.float32
+	device : cuda
+	data_folder : /work1/s174505/Thesis/Data/
+	training_data_file : Interpolated_data_v2_training.pt
+	testing_data_file : Interpolated_data_testing.pt
+	validation_fraction : 0.3
+	in_features : 38
+	out_features : 12
+	batch_size : 1
+	seed : 10
+	save_model_freq : 1200
+	run_id : 13884178_5_cv-0-21
+	run_index : 5
+	model_savepoint_folder : /work1/s174505/Thesis/Models/
+	max_epochs : 300
+	debugging : False
+	use_cv : True
+	cv_folds : 21
+	cv_index : 0
+	optimizer : Adam
+	lr : 0.000316
+	use_lr_schedule : False
+	weight_decay : 0.0
+	momentum : 0.0
+	model : base_cnn
+	strides : [3, 1, 1]
+	kernel_lenghts : [1201, 7, 3]
+	channels : [64, 32]
+	paddings : [0, 0, 0]
+	use_dropout : True
+	dropout : [0.2, 0.35]
+base_cnn(
+  (normalize_input): BatchNorm1d(38, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv_hidden_layers): Sequential(
+    (0): Conv1d(38, 64, kernel_size=(1201,), stride=(3,))
+    (1): ReLU()
+    (2): Dropout(p=0.2, inplace=False)
+    (3): Conv1d(64, 32, kernel_size=(7,), stride=(1,))
+    (4): ReLU()
+    (5): Dropout(p=0.35, inplace=False)
+  )
+  (conv_out_layer): Conv1d(32, 12, kernel_size=(3,), stride=(1,))
+)
+Train batches: 3 	Validation batches: 1
+Starting epoch: 0
+Starting epoch: 5
+Starting epoch: 10
+Starting epoch: 15
+Starting epoch: 20
+Starting epoch: 25
+Starting epoch: 30
+Starting epoch: 35
+Starting epoch: 40
+Starting epoch: 45
+Starting epoch: 50
+Starting epoch: 55
+Starting epoch: 60
+Starting epoch: 65
+Starting epoch: 70
+Starting epoch: 75
+Starting epoch: 80
+Starting epoch: 85
+Starting epoch: 90
+Starting epoch: 95
+Epochs time: 64.01 s
+Starting epoch: 100
+Starting epoch: 105
+Starting epoch: 110
+Starting epoch: 115
+Starting epoch: 120
+Starting epoch: 125
+Starting epoch: 130
+Starting epoch: 135
+Starting epoch: 140
+Starting epoch: 145
+Starting epoch: 150
+Starting epoch: 155
+Starting epoch: 160
+Starting epoch: 165
+Starting epoch: 170
+Starting epoch: 175
+Starting epoch: 180
+Starting epoch: 185
+Starting epoch: 190
+Starting epoch: 195
+Epochs time: 59.99 s
+Starting epoch: 200
+Starting epoch: 205
+Starting epoch: 210
+Starting epoch: 215
+Starting epoch: 220
+Starting epoch: 225
+Starting epoch: 230
+Starting epoch: 235
+Starting epoch: 240
+Starting epoch: 245
+Starting epoch: 250
+Starting epoch: 255
+Starting epoch: 260
+Starting epoch: 265
+Starting epoch: 270
+Starting epoch: 275
+Starting epoch: 280
+Starting epoch: 285
+Starting epoch: 290
+Starting epoch: 295
+Epochs time: 60.15 s
+Device: cuda
+Hyperparameters:
+	data_type : torch.float32
+	device : cuda
+	data_folder : /work1/s174505/Thesis/Data/
+	training_data_file : Interpolated_data_v2_training.pt
+	testing_data_file : Interpolated_data_testing.pt
+	validation_fraction : 0.3
+	in_features : 38
+	out_features : 12
+	batch_size : 1
+	seed : 10
+	save_model_freq : 1200
+	run_id : 13884178_5_cv-6-21
+	run_index : 5
+	model_savepoint_folder : /work1/s174505/Thesis/Models/
+	max_epochs : 300
+	debugging : False
+	use_cv : True
+	cv_folds : 21
+	cv_index : 6
+	optimizer : Adam
+	lr : 0.000316
+	use_lr_schedule : False
+	weight_decay : 0.0
+	momentum : 0.0
+	model : base_cnn
+	strides : [3, 1, 1]
+	kernel_lenghts : [1201, 7, 3]
+	channels : [64, 32]
+	paddings : [0, 0, 0]
+	use_dropout : True
+	dropout : [0.2, 0.35]
+base_cnn(
+  (normalize_input): BatchNorm1d(38, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv_hidden_layers): Sequential(
+    (0): Conv1d(38, 64, kernel_size=(1201,), stride=(3,))
+    (1): ReLU()
+    (2): Dropout(p=0.2, inplace=False)
+    (3): Conv1d(64, 32, kernel_size=(7,), stride=(1,))
+    (4): ReLU()
+    (5): Dropout(p=0.35, inplace=False)
+  )
+  (conv_out_layer): Conv1d(32, 12, kernel_size=(3,), stride=(1,))
+)
+Train batches: 3 	Validation batches: 1
+Starting epoch: 0
+Starting epoch: 5
+Starting epoch: 10
+Starting epoch: 15
+Starting epoch: 20
+Starting epoch: 25
+Starting epoch: 30
+Starting epoch: 35
+Starting epoch: 40
+Starting epoch: 45
+Starting epoch: 50
+Starting epoch: 55
+Starting epoch: 60
+Starting epoch: 65
+Starting epoch: 70
+Starting epoch: 75
+Starting epoch: 80
+Starting epoch: 85
+Starting epoch: 90
+Starting epoch: 95
+Epochs time: 62.33 s
+Starting epoch: 100
+Starting epoch: 105
+Starting epoch: 110
+Starting epoch: 115
+Starting epoch: 120
+Starting epoch: 125
+Starting epoch: 130
+Starting epoch: 135
+Starting epoch: 140
+Starting epoch: 145
+Starting epoch: 150
+Starting epoch: 155
+Starting epoch: 160
+Starting epoch: 165
+Starting epoch: 170
+Starting epoch: 175
+Starting epoch: 180
+Starting epoch: 185
+Starting epoch: 190
+Starting epoch: 195
+Epochs time: 60.24 s
+Starting epoch: 200
+Starting epoch: 205
+Starting epoch: 210
+Starting epoch: 215
+Starting epoch: 220
+Starting epoch: 225
+Starting epoch: 230
+Starting epoch: 235
+Starting epoch: 240
+Starting epoch: 245
+Starting epoch: 250
+Starting epoch: 255
+Starting epoch: 260
+Starting epoch: 265
+Starting epoch: 270
+Starting epoch: 275
+Starting epoch: 280
+Starting epoch: 285
+Starting epoch: 290
+Starting epoch: 295
+Epochs time: 60.22 s
+Device: cuda
+Hyperparameters:
+	data_type : torch.float32
+	device : cuda
+	data_folder : /work1/s174505/Thesis/Data/
+	training_data_file : Interpolated_data_v2_training.pt
+	testing_data_file : Interpolated_data_testing.pt
+	validation_fraction : 0.3
+	in_features : 38
+	out_features : 12
+	batch_size : 1
+	seed : 10
+	save_model_freq : 1200
+	run_id : 13884178_5_cv-7-21
+	run_index : 5
+	model_savepoint_folder : /work1/s174505/Thesis/Models/
+	max_epochs : 300
+	debugging : False
+	use_cv : True
+	cv_folds : 21
+	cv_index : 7
+	optimizer : Adam
+	lr : 0.000316
+	use_lr_schedule : False
+	weight_decay : 0.0
+	momentum : 0.0
+	model : base_cnn
+	strides : [3, 1, 1]
+	kernel_lenghts : [1201, 7, 3]
+	channels : [64, 32]
+	paddings : [0, 0, 0]
+	use_dropout : True
+	dropout : [0.2, 0.35]
+base_cnn(
+  (normalize_input): BatchNorm1d(38, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv_hidden_layers): Sequential(
+    (0): Conv1d(38, 64, kernel_size=(1201,), stride=(3,))
+    (1): ReLU()
+    (2): Dropout(p=0.2, inplace=False)
+    (3): Conv1d(64, 32, kernel_size=(7,), stride=(1,))
+    (4): ReLU()
+    (5): Dropout(p=0.35, inplace=False)
+  )
+  (conv_out_layer): Conv1d(32, 12, kernel_size=(3,), stride=(1,))
+)
+Train batches: 3 	Validation batches: 1
+Starting epoch: 0
+Starting epoch: 5
+Starting epoch: 10
+Starting epoch: 15
+Starting epoch: 20
+Starting epoch: 25
+Starting epoch: 30
+Starting epoch: 35
+Starting epoch: 40
+Starting epoch: 45
+Starting epoch: 50
+Starting epoch: 55
+Starting epoch: 60
+Starting epoch: 65
+Starting epoch: 70
+Starting epoch: 75
+Starting epoch: 80
+Starting epoch: 85
+Starting epoch: 90
+Starting epoch: 95
+Epochs time: 62.41 s
+Starting epoch: 100
+Starting epoch: 105
+Starting epoch: 110
+Starting epoch: 115
+Starting epoch: 120
+Starting epoch: 125
+Starting epoch: 130
+Starting epoch: 135
+Starting epoch: 140
+Starting epoch: 145
+Starting epoch: 150
+Starting epoch: 155
+Starting epoch: 160
+Starting epoch: 165
+Starting epoch: 170
+Starting epoch: 175
+Starting epoch: 180
+Starting epoch: 185
+Starting epoch: 190
+Starting epoch: 195
+Epochs time: 60.36 s
+Starting epoch: 200
+Starting epoch: 205
+Starting epoch: 210
+Starting epoch: 215
+Starting epoch: 220
+Starting epoch: 225
+Starting epoch: 230
+Starting epoch: 235
+Starting epoch: 240
+Starting epoch: 245
+Starting epoch: 250
+Starting epoch: 255
+Starting epoch: 260
+Starting epoch: 265
+Starting epoch: 270
+Starting epoch: 275
+Starting epoch: 280
+Starting epoch: 285
+Starting epoch: 290
+Starting epoch: 295
+Epochs time: 60.19 s
+Device: cuda
+Hyperparameters:
+	data_type : torch.float32
+	device : cuda
+	data_folder : /work1/s174505/Thesis/Data/
+	training_data_file : Interpolated_data_v2_training.pt
+	testing_data_file : Interpolated_data_testing.pt
+	validation_fraction : 0.3
+	in_features : 38
+	out_features : 12
+	batch_size : 1
+	seed : 10
+	save_model_freq : 1200
+	run_id : 13884178_5_cv-13-21
+	run_index : 5
+	model_savepoint_folder : /work1/s174505/Thesis/Models/
+	max_epochs : 300
+	debugging : False
+	use_cv : True
+	cv_folds : 21
+	cv_index : 13
+	optimizer : Adam
+	lr : 0.000316
+	use_lr_schedule : False
+	weight_decay : 0.0
+	momentum : 0.0
+	model : base_cnn
+	strides : [3, 1, 1]
+	kernel_lenghts : [1201, 7, 3]
+	channels : [64, 32]
+	paddings : [0, 0, 0]
+	use_dropout : True
+	dropout : [0.2, 0.35]
+base_cnn(
+  (normalize_input): BatchNorm1d(38, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv_hidden_layers): Sequential(
+    (0): Conv1d(38, 64, kernel_size=(1201,), stride=(3,))
+    (1): ReLU()
+    (2): Dropout(p=0.2, inplace=False)
+    (3): Conv1d(64, 32, kernel_size=(7,), stride=(1,))
+    (4): ReLU()
+    (5): Dropout(p=0.35, inplace=False)
+  )
+  (conv_out_layer): Conv1d(32, 12, kernel_size=(3,), stride=(1,))
+)
+Train batches: 3 	Validation batches: 1
+Starting epoch: 0
+Starting epoch: 5
+Starting epoch: 10
+Starting epoch: 15
+Starting epoch: 20
+Starting epoch: 25
+Starting epoch: 30
+Starting epoch: 35
+Starting epoch: 40
+Starting epoch: 45
+Starting epoch: 50
+Starting epoch: 55
+Starting epoch: 60
+Starting epoch: 65
+Starting epoch: 70
+Starting epoch: 75
+Starting epoch: 80
+Starting epoch: 85
+Starting epoch: 90
+Starting epoch: 95
+Epochs time: 62.26 s
+Starting epoch: 100
+Starting epoch: 105
+Starting epoch: 110
+Starting epoch: 115
+Starting epoch: 120
+Starting epoch: 125
+Starting epoch: 130
+Starting epoch: 135
+Starting epoch: 140
+Starting epoch: 145
+Starting epoch: 150
+Starting epoch: 155
+Starting epoch: 160
+Starting epoch: 165
+Starting epoch: 170
+Starting epoch: 175
+Starting epoch: 180
+Starting epoch: 185
+Starting epoch: 190
+Starting epoch: 195
+Epochs time: 60.26 s
+Starting epoch: 200
+Starting epoch: 205
+Starting epoch: 210
+Starting epoch: 215
+Starting epoch: 220
+Starting epoch: 225
+Starting epoch: 230
+Starting epoch: 235
+Starting epoch: 240
+Starting epoch: 245
+Starting epoch: 250
+Starting epoch: 255
+Starting epoch: 260
+Starting epoch: 265
+Starting epoch: 270
+Starting epoch: 275
+Starting epoch: 280
+Starting epoch: 285
+Starting epoch: 290
+Starting epoch: 295
+Epochs time: 60.23 s
+Device: cuda
+Hyperparameters:
+	data_type : torch.float32
+	device : cuda
+	data_folder : /work1/s174505/Thesis/Data/
+	training_data_file : Interpolated_data_v2_training.pt
+	testing_data_file : Interpolated_data_testing.pt
+	validation_fraction : 0.3
+	in_features : 38
+	out_features : 12
+	batch_size : 1
+	seed : 10
+	save_model_freq : 1200
+	run_id : 13884178_5_cv-14-21
+	run_index : 5
+	model_savepoint_folder : /work1/s174505/Thesis/Models/
+	max_epochs : 300
+	debugging : False
+	use_cv : True
+	cv_folds : 21
+	cv_index : 14
+	optimizer : Adam
+	lr : 0.000316
+	use_lr_schedule : False
+	weight_decay : 0.0
+	momentum : 0.0
+	model : base_cnn
+	strides : [3, 1, 1]
+	kernel_lenghts : [1201, 7, 3]
+	channels : [64, 32]
+	paddings : [0, 0, 0]
+	use_dropout : True
+	dropout : [0.2, 0.35]
+base_cnn(
+  (normalize_input): BatchNorm1d(38, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv_hidden_layers): Sequential(
+    (0): Conv1d(38, 64, kernel_size=(1201,), stride=(3,))
+    (1): ReLU()
+    (2): Dropout(p=0.2, inplace=False)
+    (3): Conv1d(64, 32, kernel_size=(7,), stride=(1,))
+    (4): ReLU()
+    (5): Dropout(p=0.35, inplace=False)
+  )
+  (conv_out_layer): Conv1d(32, 12, kernel_size=(3,), stride=(1,))
+)
+Train batches: 3 	Validation batches: 1
+Starting epoch: 0
+Starting epoch: 5
+Starting epoch: 10
+Starting epoch: 15
+Starting epoch: 20
+Starting epoch: 25
+Starting epoch: 30
+Starting epoch: 35
+Starting epoch: 40
+Starting epoch: 45
+Starting epoch: 50
+Starting epoch: 55
+Starting epoch: 60
+Starting epoch: 65
+Starting epoch: 70
+Starting epoch: 75
+Starting epoch: 80
+Starting epoch: 85
+Starting epoch: 90
+Starting epoch: 95
+Epochs time: 62.28 s
+Starting epoch: 100
+Starting epoch: 105
+Starting epoch: 110
+Starting epoch: 115
+Starting epoch: 120
+Starting epoch: 125
+Starting epoch: 130
+Starting epoch: 135
+Starting epoch: 140
+Starting epoch: 145
+Starting epoch: 150
+Starting epoch: 155
+Starting epoch: 160
+Starting epoch: 165
+Starting epoch: 170
+Starting epoch: 175
+Starting epoch: 180
+Starting epoch: 185
+Starting epoch: 190
+Starting epoch: 195
+Epochs time: 60.21 s
+Starting epoch: 200
+Starting epoch: 205
+Starting epoch: 210
+Starting epoch: 215
+Starting epoch: 220
+Starting epoch: 225
+Starting epoch: 230
+Starting epoch: 235
+Starting epoch: 240
+Starting epoch: 245
+Starting epoch: 250
+Starting epoch: 255
+Starting epoch: 260
+Starting epoch: 265
+Starting epoch: 270
+Starting epoch: 275
+Starting epoch: 280
+Starting epoch: 285
+Starting epoch: 290
+Starting epoch: 295
+Epochs time: 60.13 s
+Device: cuda
+Hyperparameters:
+	data_type : torch.float32
+	device : cuda
+	data_folder : /work1/s174505/Thesis/Data/
+	training_data_file : Interpolated_data_v2_training.pt
+	testing_data_file : Interpolated_data_testing.pt
+	validation_fraction : 0.3
+	in_features : 38
+	out_features : 12
+	batch_size : 1
+	seed : 10
+	save_model_freq : 1200
+	run_id : 13884178_5_cv-20-21
+	run_index : 5
+	model_savepoint_folder : /work1/s174505/Thesis/Models/
+	max_epochs : 300
+	debugging : False
+	use_cv : True
+	cv_folds : 21
+	cv_index : 20
+	optimizer : Adam
+	lr : 0.000316
+	use_lr_schedule : False
+	weight_decay : 0.0
+	momentum : 0.0
+	model : base_cnn
+	strides : [3, 1, 1]
+	kernel_lenghts : [1201, 7, 3]
+	channels : [64, 32]
+	paddings : [0, 0, 0]
+	use_dropout : True
+	dropout : [0.2, 0.35]
+base_cnn(
+  (normalize_input): BatchNorm1d(38, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv_hidden_layers): Sequential(
+    (0): Conv1d(38, 64, kernel_size=(1201,), stride=(3,))
+    (1): ReLU()
+    (2): Dropout(p=0.2, inplace=False)
+    (3): Conv1d(64, 32, kernel_size=(7,), stride=(1,))
+    (4): ReLU()
+    (5): Dropout(p=0.35, inplace=False)
+  )
+  (conv_out_layer): Conv1d(32, 12, kernel_size=(3,), stride=(1,))
+)
+Train batches: 3 	Validation batches: 1
+Starting epoch: 0
+Starting epoch: 5
+Starting epoch: 10
+Starting epoch: 15
+Starting epoch: 20
+Starting epoch: 25
+Starting epoch: 30
+Starting epoch: 35
+Starting epoch: 40
+Starting epoch: 45
+Starting epoch: 50
+Starting epoch: 55
+Starting epoch: 60
+Starting epoch: 65
+Starting epoch: 70
+Starting epoch: 75
+Starting epoch: 80
+Starting epoch: 85
+Starting epoch: 90
+Starting epoch: 95
+Epochs time: 62.23 s
+Starting epoch: 100
+Starting epoch: 105
+Starting epoch: 110
+Starting epoch: 115
+Starting epoch: 120
+Starting epoch: 125
+Starting epoch: 130
+Starting epoch: 135
+Starting epoch: 140
+Starting epoch: 145
+Starting epoch: 150
+Starting epoch: 155
+Starting epoch: 160
+Starting epoch: 165
+Starting epoch: 170
+Starting epoch: 175
+Starting epoch: 180
+Starting epoch: 185
+Starting epoch: 190
+Starting epoch: 195
+Epochs time: 60.27 s
+Starting epoch: 200
+Starting epoch: 205
+Starting epoch: 210
+Starting epoch: 215
+Starting epoch: 220
+Starting epoch: 225
+Starting epoch: 230
+Starting epoch: 235
+Starting epoch: 240
+Starting epoch: 245
+Starting epoch: 250
+Starting epoch: 255
+Starting epoch: 260
+Starting epoch: 265
+Starting epoch: 270
+Starting epoch: 275
+Starting epoch: 280
+Starting epoch: 285
+Starting epoch: 290
+Starting epoch: 295
+Epochs time: 60.15 s
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 13884178[5]: <CNN4[1-16]> in cluster <dcc> Done
+
+Job <CNN4[1-16]> was submitted from host <hpclogin1> by user <s174505> in cluster <dcc> at Wed Aug  3 18:12:21 2022
+Job was executed on host(s) <4*n-62-20-6>, in queue <gpuv100>, as user <s174505> in cluster <dcc> at Wed Aug  3 18:12:21 2022
+</zhome/02/e/127482> was used as the home directory.
+</zhome/02/e/127482/Thesis/Code> was used as the working directory.
+Started at Wed Aug  3 18:12:21 2022
+Terminated at Wed Aug  3 18:32:24 2022
+Results reported at Wed Aug  3 18:32:24 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -J CNN4[1-16]
+#BSUB -n 4
+#BSUB -R "span[hosts=1]"
+#BSUB -q gpuv100
+#BSUB -gpu "num=1:mode=exclusive_process"
+#BSUB -W 1:00
+#BSUB -R "rusage[mem=4GB]"
+#BSUB -o batch_jobs/cnn4_%J_%I.out
+
+module purge
+module load python3/3.9.10
+base_values="--lr 0.000316 --parameter_settings 18 --use_cv True --run_id $LSB_JOBID --run_index $LSB_JOBINDEX"
+python3 train.py $base_values --cv_index 0 --use_dropout True
+python3 train.py $base_values --cv_index 6 --use_dropout True
+python3 train.py $base_values --cv_index 7 --use_dropout True
+python3 train.py $base_values --cv_index 13 --use_dropout True
+python3 train.py $base_values --cv_index 14 --use_dropout True
+python3 train.py $base_values --cv_index 20 --use_dropout True
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1138.10 sec.
+    Max Memory :                                 3132 MB
+    Average Memory :                             2883.42 MB
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               13252.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                11
+    Run time :                                   1278 sec.
+    Turnaround time :                            1203 sec.
+
+The output (if any) is above this job summary.
+

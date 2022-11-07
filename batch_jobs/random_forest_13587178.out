@@ -1,0 +1,293 @@
+Loaded dependency [python3/3.9.10]: gcc/10.3.0-binutils-2.36.1
+Loaded module: python3/3.9.10
+
+Loading python3/3.9.10
+  Loading requirement: gcc/10.3.0-binutils-2.36.1
+# trees: 100
+Attribute 0
+Train ME:      0.429941258964275
+Validation ME: 0.6048393395637676
+Time: 7.529844522476196
+Attribute 1
+Train ME:      0.4689942492812841
+Validation ME: 0.5158824298025745
+Time: 6.926024913787842
+Attribute 2
+Train ME:      0.44249819486805947
+Validation ME: 0.45897067894020044
+Time: 6.777696371078491
+Attribute 3
+Train ME:      0.46038260511660334
+Validation ME: 0.4914674059336461
+Time: 6.943785667419434
+Attribute 4
+Train ME:      0.3005848208292314
+Validation ME: 0.3338263171678879
+Time: 10.026975154876709
+Attribute 5
+Train ME:      0.2933992105927633
+Validation ME: 0.3268550330127166
+Time: 9.767877340316772
+Attribute 6
+Train ME:      0.6212096987680624
+Validation ME: 0.702646380437471
+Time: 8.626574277877808
+Attribute 7
+Train ME:      0.6574774593636482
+Validation ME: 0.7362022042157607
+Time: 8.438292741775513
+Attribute 8
+Train ME:      0.41623700432424116
+Validation ME: 0.4460932599229945
+Time: 8.676716327667236
+Attribute 9
+Train ME:      0.4208867744094093
+Validation ME: 0.4549793280527817
+Time: 8.493945121765137
+Attribute 10
+Train ME:      1.4059606629608776
+Validation ME: 1.6262910009663023
+Time: 7.2537994384765625
+Attribute 11
+Train ME:      1.4156401492597104
+Validation ME: 1.6355915621651886
+Time: 6.989491939544678
+Attribute 12
+Train ME:      0.9407534954109513
+Validation ME: 1.4490899156775006
+Time: 5.594911336898804
+Attribute 13
+Train ME:      0.9363530502718141
+Validation ME: 1.434043306265983
+Time: 5.62934422492981
+# trees: 500
+Attribute 0
+Train ME:      0.5161013109956502
+Validation ME: 0.5759923506016251
+Time: 5.233943223953247
+Attribute 1
+Train ME:      0.5093024795858968
+Validation ME: 0.5178166733056284
+Time: 7.5340282917022705
+Attribute 2
+Train ME:      0.4830276612281019
+Validation ME: 0.4615714675081001
+Time: 7.2774574756622314
+Attribute 3
+Train ME:      0.5025596318799984
+Validation ME: 0.4945327065658298
+Time: 6.842411279678345
+Attribute 4
+Train ME:      0.32433771712712306
+Validation ME: 0.33254153367078004
+Time: 8.327129125595093
+Attribute 5
+Train ME:      0.31643239097890163
+Validation ME: 0.32581797872196244
+Time: 8.810694694519043
+Attribute 6
+Train ME:      0.6721241994010511
+Validation ME: 0.6980929655114122
+Time: 7.981141090393066
+Attribute 7
+Train ME:      0.7110750306067309
+Validation ME: 0.7328674226216039
+Time: 7.989243745803833
+Attribute 8
+Train ME:      0.44919002645936035
+Validation ME: 0.44326725167599795
+Time: 7.979668140411377
+Attribute 9
+Train ME:      0.4548423837682186
+Validation ME: 0.4527185144051221
+Time: 7.99137282371521
+Attribute 10
+Train ME:      1.520588320611789
+Validation ME: 1.6158778308350414
+Time: 6.63355016708374
+Attribute 11
+Train ME:      1.5358941541187434
+Validation ME: 1.624970427579928
+Time: 6.6461262702941895
+Attribute 12
+Train ME:      1.2097630252283536
+Validation ME: 1.3996897103427772
+Time: 5.855361700057983
+Attribute 13
+Train ME:      1.2102154131028884
+Validation ME: 1.3812993517164946
+Time: 5.62825608253479
+# trees: 1000
+Attribute 0
+Train ME:      0.5413569793148666
+Validation ME: 0.5699372651631633
+Time: 5.969332218170166
+Attribute 1
+Train ME:      0.5163313488966815
+Validation ME: 0.5196324498061419
+Time: 7.916913032531738
+Attribute 2
+Train ME:      0.4914196648253807
+Validation ME: 0.4651974776875182
+Time: 7.6433470249176025
+Attribute 3
+Train ME:      0.5117006274003039
+Validation ME: 0.49827989608374496
+Time: 7.535871744155884
+Attribute 4
+Train ME:      0.32763987841449504
+Validation ME: 0.3323030223993045
+Time: 8.376832485198975
+Attribute 5
+Train ME:      0.3195972985912264
+Validation ME: 0.32581720062057135
+Time: 8.504338026046753
+Attribute 6
+Train ME:      0.6801803753079735
+Validation ME: 0.6983994710816925
+Time: 8.387308835983276
+Attribute 7
+Train ME:      0.7194530859837849
+Validation ME: 0.7334430648433822
+Time: 8.350888729095459
+Attribute 8
+Train ME:      0.45381285400343263
+Validation ME: 0.4428160248526356
+Time: 7.943758249282837
+Attribute 9
+Train ME:      0.45940280872685163
+Validation ME: 0.45266143742110876
+Time: 8.006925582885742
+Attribute 10
+Train ME:      1.5370073750901176
+Validation ME: 1.6146679698943258
+Time: 7.20280647277832
+Attribute 11
+Train ME:      1.5515860740431888
+Validation ME: 1.6231216169567644
+Time: 6.998413562774658
+Attribute 12
+Train ME:      1.273962381984156
+Validation ME: 1.4047020099875878
+Time: 6.674596071243286
+Attribute 13
+Train ME:      1.2764377425137325
+Validation ME: 1.3885145293918664
+Time: 6.7036354541778564
+# trees: 5000
+Attribute 0
+Train ME:      0.5749352846255699
+Validation ME: 0.5644801411879784
+Time: 10.759922981262207
+Attribute 1
+Train ME:      0.5255275800386894
+Validation ME: 0.5250261553933672
+Time: 12.867574214935303
+Attribute 2
+Train ME:      0.5059052189814479
+Validation ME: 0.47435751393444964
+Time: 12.889120817184448
+Attribute 3
+Train ME:      0.5269705436074197
+Validation ME: 0.5079686297003567
+Time: 13.009709358215332
+Attribute 4
+Train ME:      0.3306463173328769
+Validation ME: 0.3325191402664835
+Time: 12.393731594085693
+Attribute 5
+Train ME:      0.32253473316541975
+Validation ME: 0.3259726083299226
+Time: 12.646820068359375
+Attribute 6
+Train ME:      0.6903921261207997
+Validation ME: 0.701166159111901
+Time: 12.578894138336182
+Attribute 7
+Train ME:      0.7302286220513715
+Validation ME: 0.7371268029916438
+Time: 12.749332904815674
+Attribute 8
+Train ME:      0.45792099217030807
+Validation ME: 0.4428198688103924
+Time: 12.503648519515991
+Attribute 9
+Train ME:      0.4637054779981781
+Validation ME: 0.4526419852612431
+Time: 12.369515180587769
+Attribute 10
+Train ME:      1.5512359549079353
+Validation ME: 1.6164128200154457
+Time: 12.05790638923645
+Attribute 11
+Train ME:      1.5656891901802283
+Validation ME: 1.6243696638974685
+Time: 11.95059084892273
+Attribute 12
+Train ME:      1.397421800009731
+Validation ME: 1.4807510669580553
+Time: 12.248885154724121
+Attribute 13
+Train ME:      1.401092661771576
+Validation ME: 1.464353021335548
+Time: 12.369375467300415
+Traceback (most recent call last):
+  File "/zhome/02/e/127482/Thesis/Code/random_forest.py", line 84, in <module>
+  File "/zhome/02/e/127482/.local/lib/python3.9/site-packages/pandas/core/generic.py", line 3038, in to_pickle
+    to_pickle(
+  File "/zhome/02/e/127482/.local/lib/python3.9/site-packages/pandas/io/pickle.py", line 97, in to_pickle
+    with get_handle(
+  File "/zhome/02/e/127482/.local/lib/python3.9/site-packages/pandas/io/common.py", line 697, in get_handle
+    check_parent_directory(str(handle))
+  File "/zhome/02/e/127482/.local/lib/python3.9/site-packages/pandas/io/common.py", line 571, in check_parent_directory
+    raise OSError(fr"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'Results/random_forest'
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 13587178: <RF> in cluster <dcc> Exited
+
+Job <RF> was submitted from host <n-62-27-18> by user <s174505> in cluster <dcc> at Mon May 16 15:53:24 2022
+Job was executed on host(s) <16*n-62-30-15>, in queue <hpc>, as user <s174505> in cluster <dcc> at Mon May 16 15:53:25 2022
+</zhome/02/e/127482> was used as the home directory.
+</zhome/02/e/127482/Thesis/Code> was used as the working directory.
+Started at Mon May 16 15:53:25 2022
+Terminated at Mon May 16 16:02:19 2022
+Results reported at Mon May 16 16:02:19 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -J RF
+#BSUB -n 16
+#BSUB -R "span[hosts=1]"
+#BSUB -q hpc
+#BSUB -W 15:00
+#BSUB -R "rusage[mem=3GB]"
+#BSUB -o batch_jobs/random_forest_%J.out
+
+module purge
+module load python3/3.9.10
+
+python3 random_forest.py
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   6787.00 sec.
+    Max Memory :                                 1712 MB
+    Average Memory :                             861.33 MB
+    Total Requested Memory :                     49152.00 MB
+    Delta Memory :                               47440.00 MB
+    Max Swap :                                   -
+    Max Processes :                              22
+    Max Threads :                                44
+    Run time :                                   538 sec.
+    Turnaround time :                            535 sec.
+
+The output (if any) is above this job summary.
+

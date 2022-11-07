@@ -1,0 +1,317 @@
+Loaded dependency [python3/3.9.10]: gcc/10.3.0-binutils-2.36.1
+Loaded module: python3/3.9.10
+
+Loading python3/3.9.10
+  Loading requirement: gcc/10.3.0-binutils-2.36.1
+# trees: 10
+Attribute 0
+Train sqrt MSE:      0.4959558520486145
+Validation sqrt MSE: 0.7592079612782598
+Time: 5.025780439376831
+Attribute 1
+Train sqrt MSE:      0.18977370803829877
+Validation sqrt MSE: 0.5754081007276949
+Time: 2.4942643642425537
+Attribute 2
+Train sqrt MSE:      1.3630836604572336e-05
+Validation sqrt MSE: 2.6851284708016627e-05
+Time: 1.899263620376587
+Attribute 3
+Train sqrt MSE:      7.908248055719191
+Validation sqrt MSE: 15.807483208852403
+Time: 2.0108368396759033
+Attribute 4
+Train sqrt MSE:      0.5488667460669658
+Validation sqrt MSE: 0.595186324763308
+Time: 2.0878756046295166
+Attribute 5
+Train sqrt MSE:      0.0460797309736824
+Validation sqrt MSE: 0.11405632197405927
+Time: 1.8009757995605469
+Attribute 6
+Train sqrt MSE:      0.6159432722309206
+Validation sqrt MSE: 0.6865679848263098
+Time: 1.9423887729644775
+Attribute 7
+Train sqrt MSE:      0.11590937832435026
+Validation sqrt MSE: 0.21178044901745202
+Time: 1.8864827156066895
+Attribute 8
+Train sqrt MSE:      0.2554322875701199
+Validation sqrt MSE: 0.29760511491676694
+Time: 1.996483564376831
+Attribute 9
+Train sqrt MSE:      0.1211202512786189
+Validation sqrt MSE: 0.1746443115512092
+Time: 1.892038106918335
+Attribute 10
+Train sqrt MSE:      0.6536248775751703
+Validation sqrt MSE: 0.6722578042864066
+Time: 2.0477406978607178
+Attribute 11
+Train sqrt MSE:      0.6811834353047828
+Validation sqrt MSE: 0.7219506327147787
+Time: 2.1597607135772705
+Attribute 12
+Train sqrt MSE:      0.4066565923721072
+Validation sqrt MSE: 0.4518215495879121
+Time: 2.432403326034546
+Attribute 13
+Train sqrt MSE:      0.39891396324205164
+Validation sqrt MSE: 0.44340995206289335
+Time: 2.627225637435913
+Attribute 14
+Train sqrt MSE:      0.04113567622891276
+Validation sqrt MSE: 0.10668520465634788
+Time: 1.8061084747314453
+Attribute 15
+Train sqrt MSE:      0.16258825637387309
+Validation sqrt MSE: 0.2750085220989896
+Time: 1.828017234802246
+Attribute 16
+Train sqrt MSE:      0.8502269676212063
+Validation sqrt MSE: 1.0282560595238837
+Time: 2.5214555263519287
+Attribute 17
+Train sqrt MSE:      0.9057477113695965
+Validation sqrt MSE: 1.0698716411883409
+Time: 2.46390438079834
+Attribute 18
+Train sqrt MSE:      0.544897188580477
+Validation sqrt MSE: 0.6135619793622982
+Time: 2.472907304763794
+Attribute 19
+Train sqrt MSE:      0.5479530114082547
+Validation sqrt MSE: 0.6240468456464121
+Time: 2.3701841831207275
+Attribute 20
+Train sqrt MSE:      1.8483650777746736
+Validation sqrt MSE: 2.3807232384025308
+Time: 2.211674928665161
+Attribute 21
+Train sqrt MSE:      1.8745965950997214
+Validation sqrt MSE: 2.3703208993763876
+Time: 2.24238920211792
+Attribute 22
+Train sqrt MSE:      1.5606645332249274
+Validation sqrt MSE: 2.112563635727827
+Time: 2.301849842071533
+Attribute 23
+Train sqrt MSE:      1.5749119519118404
+Validation sqrt MSE: 2.0918896727149643
+Time: 2.157599925994873
+# trees: 20
+Attribute 0
+Train sqrt MSE:      0.5588460735533387
+Validation sqrt MSE: 0.7260619105180319
+Time: 1.2199735641479492
+Attribute 1
+Train sqrt MSE:      0.27248101137303754
+Validation sqrt MSE: 0.5527291403814351
+Time: 1.2969636917114258
+Attribute 2
+Train sqrt MSE:      1.5754294060856003e-05
+Validation sqrt MSE: 2.623310916636113e-05
+Time: 1.5282433032989502
+Attribute 3
+Train sqrt MSE:      9.176536952861664
+Validation sqrt MSE: 15.149085051678943
+Time: 1.633251428604126
+Attribute 4
+Train sqrt MSE:      0.5631479749777987
+Validation sqrt MSE: 0.5834960835535821
+Time: 1.4327092170715332
+Attribute 5
+Train sqrt MSE:      0.06826500271293219
+Validation sqrt MSE: 0.11547576170413743
+Time: 1.4642486572265625
+Attribute 6
+Train sqrt MSE:      0.6334817386174408
+Validation sqrt MSE: 0.6737968377341841
+Time: 1.2556474208831787
+Attribute 7
+Train sqrt MSE:      0.13669039934530083
+Validation sqrt MSE: 0.20394679401001534
+Time: 1.6537859439849854
+Attribute 8
+Train sqrt MSE:      0.2640748264158067
+Validation sqrt MSE: 0.29156442817737255
+Time: 1.694059133529663
+Attribute 9
+Train sqrt MSE:      0.13394827405589618
+Validation sqrt MSE: 0.17323635395177436
+Time: 1.5042674541473389
+Attribute 10
+Train sqrt MSE:      0.6681538690517961
+Validation sqrt MSE: 0.6550242392239334
+Time: 1.746020793914795
+Attribute 11
+Train sqrt MSE:      0.6964095453003919
+Validation sqrt MSE: 0.7064636999161721
+Time: 1.4179251194000244
+Attribute 12
+Train sqrt MSE:      0.4175485079332632
+Validation sqrt MSE: 0.44214503653428516
+Time: 1.917060136795044
+Attribute 13
+Train sqrt MSE:      0.40983005973925246
+Validation sqrt MSE: 0.4332897533876622
+Time: 1.9985222816467285
+Attribute 14
+Train sqrt MSE:      0.05448619245260619
+Validation sqrt MSE: 0.10228899178802292
+Time: 1.6325011253356934
+Attribute 15
+Train sqrt MSE:      0.19242936955438877
+Validation sqrt MSE: 0.2610888953652207
+Time: 1.1643218994140625
+Attribute 16
+Train sqrt MSE:      0.8813316599151754
+Validation sqrt MSE: 1.0042744585781538
+Time: 1.6174943447113037
+Attribute 17
+Train sqrt MSE:      0.9356501941548432
+Validation sqrt MSE: 1.0472193752807382
+Time: 2.059335470199585
+Attribute 18
+Train sqrt MSE:      0.5788734764625819
+Validation sqrt MSE: 0.5943392368473568
+Time: 1.6888401508331299
+Attribute 19
+Train sqrt MSE:      0.5834187997865601
+Validation sqrt MSE: 0.6032743491296553
+Time: 1.5639753341674805
+Attribute 20
+Train sqrt MSE:      1.9483014044490443
+Validation sqrt MSE: 2.327767187035283
+Time: 1.3678948879241943
+Attribute 21
+Train sqrt MSE:      1.968022058048547
+Validation sqrt MSE: 2.3168533460532283
+Time: 1.6636345386505127
+Attribute 22
+Train sqrt MSE:      1.743768406458298
+Validation sqrt MSE: 2.067198967267434
+Time: 1.5340642929077148
+Attribute 23
+Train sqrt MSE:      1.7493987132060442
+Validation sqrt MSE: 2.0517676506084928
+Time: 1.7150559425354004
+# trees: 50
+Attribute 0
+Train sqrt MSE:      0.6406110443116546
+Validation sqrt MSE: 0.7076793451217145
+Time: 1.3232636451721191
+Attribute 1
+Train sqrt MSE:      0.38526630354890323
+Validation sqrt MSE: 0.5178206734204613
+Time: 1.2442948818206787
+Attribute 2
+Train sqrt MSE:      1.8417417025820425e-05
+Validation sqrt MSE: 2.6153695907976944e-05
+Time: 1.4000544548034668
+Attribute 3
+Train sqrt MSE:      10.771670676800088
+Validation sqrt MSE: 15.309886284009256
+Time: 1.5313332080841064
+Attribute 4
+Train sqrt MSE:      0.5758242886627767
+Validation sqrt MSE: 0.5785837072921592
+Time: 1.517976999282837
+Attribute 5
+Train sqrt MSE:      0.09958644320826884
+Validation sqrt MSE: 0.1134142820600005
+Time: 1.5942230224609375
+Attribute 6
+Train sqrt MSE:      0.6538813719083695
+Validation sqrt MSE: 0.6708902303936001
+Time: 1.463700771331787
+Attribute 7
+Train sqrt MSE:      0.1559070163401069
+Validation sqrt MSE: 0.20097445166690805
+Time: 1.414424180984497
+Attribute 8
+Train sqrt MSE:      0.2704766995515002
+Validation sqrt MSE: 0.28712237621301934
+Time: 1.554548978805542
+Attribute 9
+Train sqrt MSE:      0.15083956607256316
+Validation sqrt MSE: 0.17186024758155424
+Time: 1.4774134159088135
+Attribute 10
+Train sqrt MSE:      0.6886661472793771
+Validation sqrt MSE: 0.6523283658854926
+Time: 1.5986754894256592
+Attribute 11
+Train sqrt MSE:      0.7169983857764759
+Validation sqrt MSE: 0.7040383766611101
+Time: 1.6351933479309082
+Attribute 12
+Traceback (most recent call last):
+  File "/zhome/02/e/127482/Thesis_stuff/Thesis-Code/random_forest.py", line 61, in <module>
+    random_forest.fit(Atrain, ytrain[:,k])
+  File "/zhome/02/e/127482/.local/lib/python3.9/site-packages/sklearn/ensemble/_forest.py", line 450, in fit
+    trees = Parallel(
+  File "/zhome/02/e/127482/.local/lib/python3.9/site-packages/joblib/parallel.py", line 1056, in __call__
+    self.retrieve()
+  File "/zhome/02/e/127482/.local/lib/python3.9/site-packages/joblib/parallel.py", line 935, in retrieve
+    self._output.extend(job.get(timeout=self.timeout))
+  File "/zhome/02/e/127482/.local/lib/python3.9/site-packages/joblib/_parallel_backends.py", line 542, in wrap_future_result
+    return future.result(timeout=timeout)
+  File "/appl/python/3.9.10/lib/python3.9/concurrent/futures/_base.py", line 441, in result
+    self._condition.wait(timeout)
+  File "/appl/python/3.9.10/lib/python3.9/threading.py", line 312, in wait
+    waiter.acquire()
+KeyboardInterrupt
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 13414487: <RF> in cluster <dcc> Exited
+
+Job <RF> was submitted from host <n-62-27-17> by user <s174505> in cluster <dcc> at Wed Apr 20 09:33:30 2022
+Job was executed on host(s) <20*n-62-31-16>, in queue <hpc>, as user <s174505> in cluster <dcc> at Wed Apr 20 09:33:31 2022
+</zhome/02/e/127482> was used as the home directory.
+</zhome/02/e/127482/Thesis_stuff/Thesis-Code> was used as the working directory.
+Started at Wed Apr 20 09:33:31 2022
+Terminated at Wed Apr 20 09:35:37 2022
+Results reported at Wed Apr 20 09:35:37 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -J RF
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -q hpc
+#BSUB -W 2:00
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -o batch_jobs/random_forest_%J.out
+
+# -R "select[model == XeonGold6126]"
+
+module purge
+module load python3/3.9.10
+
+python3 random_forest.py
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with exit code 130.
+
+Resource usage summary:
+
+    CPU time :                                   1156.00 sec.
+    Max Memory :                                 1571 MB
+    Average Memory :                             469.33 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               203229.00 MB
+    Max Swap :                                   1 MB
+    Max Processes :                              26
+    Max Threads :                                29
+    Run time :                                   138 sec.
+    Turnaround time :                            127 sec.
+
+The output (if any) is above this job summary.
+
